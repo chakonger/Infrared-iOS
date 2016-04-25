@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="ChatRecordItem" syncable="YES">
+        <attribute name="bigType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devTypeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isComeMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mineMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="msgType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nativePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saveTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="voiceTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DeviceItem" syncable="YES">
+        <attribute name="bigType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devTypeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixTypeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="panelType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sorting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trans2eLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visible" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xHBG" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ViewListItem" syncable="YES">
+        <attribute name="bigType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastInst" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DeviceItem" positionX="-63" positionY="-18" width="128" height="255"/>
+        <element name="ViewListItem" positionX="-54" positionY="99" width="128" height="135"/>
+        <element name="ChatRecordItem" positionX="-54" positionY="90" width="128" height="300"/>
+    </elements>
+</model>
